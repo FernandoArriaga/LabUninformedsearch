@@ -14,7 +14,7 @@
 	unsigned int Nfinish;
 	statenode* parent;
 	std::vector<std::stack<char> > stacks;
-	//std::list<statenode*> children;
+
 	void cpc(void)
 	{
 	    this->pathcost=(parent->pathcost)+1+abs(Nstart-Nfinish);
